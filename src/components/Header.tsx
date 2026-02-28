@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const navLinks = [
   { href: "#services", label: "Services" },
@@ -17,13 +18,15 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3">
-            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded bg-orange flex items-center justify-center">
-              <span className="text-white font-bold text-sm sm:text-lg">TM</span>
-            </div>
-            <span className="text-gold-light font-bold text-lg sm:text-xl tracking-wide">
-              Time Machine
-            </span>
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/logo.png"
+              alt="Time Machine"
+              width={180}
+              height={48}
+              className="h-10 sm:h-12 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}

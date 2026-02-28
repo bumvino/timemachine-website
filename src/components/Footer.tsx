@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -7,13 +9,14 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-10">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-8 h-8 rounded bg-orange flex items-center justify-center">
-                <span className="text-white font-bold text-sm">TM</span>
-              </div>
-              <span className="text-gold-light font-bold text-lg">
-                Time Machine
-              </span>
+            <div className="mb-4">
+              <Image
+                src="/logo.png"
+                alt="Time Machine"
+                width={160}
+                height={42}
+                className="h-10 w-auto"
+              />
             </div>
             <p className="text-gold-light/50 text-sm leading-relaxed">
               Engineering the future of industrial automation and digital
