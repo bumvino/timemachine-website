@@ -2,10 +2,10 @@ const capabilities = [
   "Allen-Bradley / Rockwell Automation",
   "Siemens TIA Portal & S7",
   "Mitsubishi & Omron PLCs",
-  "SCADA & Data Acquisition",
+  "SCADA & Data Acquisition (Ignition)",
   "Industrial Networking & Protocols",
   "Panel Design & Fabrication",
-  "Electrical Schematics (AutoCAD)",
+  "Electrical Schematics (AutoCAD, EPLAN)",
   "UL / CE Compliance",
 ];
 
@@ -73,7 +73,7 @@ export default function About() {
             <div className="mt-8 pt-6 border-t border-gold-dark/20">
               <p className="text-gold-light/60 text-sm">
                 We work with all major industrial automation platforms and are
-                committed to finding the right solution for your specific needs.
+                committed to finding the right solution for your specific needs..
               </p>
             </div>
           </div>

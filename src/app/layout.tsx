@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Time Machine is an engineering company specializing in industrial manufacturing equipment, PLC programming, HMI development, system integration, web development, and graphic design.",
   keywords: [
     "PLC programming",
-    "HMI development",
+    "HMI development.",
     "industrial automation",
     "manufacturing engineering",
     "system integration",

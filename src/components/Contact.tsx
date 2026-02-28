@@ -38,7 +38,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-teal">Email</h4>
-                  <p className="text-teal/60">info@timemachine.com</p>
+                  <p className="text-teal/60">hi@bumvino.com</p>
                 </div>
               </div>
 
@@ -50,7 +50,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-teal">Phone</h4>
-                  <p className="text-teal/60">(555) 123-4567</p>
+                  <p className="text-teal/60">(470) 618-9034</p>
                 </div>
               </div>
 
@@ -111,7 +111,7 @@ export default function Contact() {
                       name="email"
                       required
                       className="w-full px-4 py-2.5 rounded-lg border border-gray-200 focus:border-orange focus:ring-1 focus:ring-orange outline-none transition-colors bg-white text-teal"
-                      placeholder="you@company.com"
+                      placeholder="hi@bumvino.com"
                     />
                   </div>
                 </div>
