@@ -24,9 +24,19 @@ const services = [
     description:
       "End-to-end integration of PLCs, drives, sensors, and SCADA systems. We connect all the pieces of your automation architecture into a cohesive, reliable system.",
     icon: (
-      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m9.86-2.03a4.5 4.5 0 00-1.242-7.244l4.5-4.5a4.5 4.5 0 016.364 6.364l-1.757 1.757" />
-      </svg>
+        <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.7}>
+          <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M10.2 13.8l-1.9 1.9a3.2 3.2 0 01-4.5-4.5l2.3-2.3a3.2 3.2 0 014.5 0"
+          />
+          <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M13.8 10.2l1.9-1.9a3.2 3.2 0 014.5 4.5l-2.3 2.3a3.2 3.2 0 01-4.5 0"
+          />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M9.3 14.7l5.4-5.4" />
+        </svg>
     ),
   },
   {
@@ -34,9 +44,21 @@ const services = [
     description:
       "Complete mechanical and electrical engineering for industrial manufacturing equipment. From concept design through commissioning, we bring your production systems to life.",
     icon: (
-      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17l-5.1-5.1a2.25 2.25 0 113.18-3.18l5.1 5.1m-7.24 7.24l-1.5 1.5a2.25 2.25 0 01-3.18-3.18l1.5-1.5m10.59-10.59l1.5-1.5a2.25 2.25 0 013.18 3.18l-1.5 1.5M12 9v6m3-3H9" />
-      </svg>
+        <svg
+            className="w-8 h-8"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth={1.6}
+        >
+          <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M4 20V9l5 3V9l6 3V9l5 3v8H4z"
+          />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M4 20h16" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M8 20v-4M12 20v-4M16 20v-4" />
+        </svg>
     ),
   },
   {
