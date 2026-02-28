@@ -63,7 +63,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-teal">Location</h4>
-                  <p className="text-teal/60">United States</p>
+                  <p className="text-teal/60">Arizona and Georgia USA</p>
                 </div>
               </div>
             </div>
